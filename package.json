@@ -6,7 +6,8 @@
   "license": "MIT",
   "engines": { "node": ">=20" },
   "scripts": {
-    "test": "node --test test/replay-evals.test.mjs",
+    "test": "node --test test/replay-evals.test.mjs test/execute-evals.test.mjs",
+    "eval:execute": "node scripts/execute-evals.mjs",
     "test:replay": "node --test test/replay-evals.test.mjs",
     "eval:replay": "node scripts/replay-evals.mjs",
     "evidence": "node test/fixtures/replay-evidence.mjs"

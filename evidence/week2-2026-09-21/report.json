@@ -1,0 +1,3519 @@
+{
+  "schemaVersion": 1,
+  "kind": "recorded",
+  "producer": "Claude Code 2.1.266; default configured model (model ID not recorded); Windows; text-only, tools disabled; 2026-09-21",
+  "suiteSha256": "c1140ce0f22fb3262fef851ccd82ec3b4be81bfa4db7e805ee73c4d85f90c160",
+  "captureSha256": "3012484041403a985a8328580f5e57f00f56e2666fa2b85413f9b351f86e6644",
+  "summary": {
+    "total": 138,
+    "captured": 3,
+    "missing": 135,
+    "errors": 0,
+    "literalPassed": 2,
+    "assertions": 424,
+    "matchedAssertions": 9,
+    "semanticReviewRequired": 138
+  },
+  "cases": [
+    {
+      "id": 1,
+      "status": "captured",
+      "responseSha256": "1139db7588223662075e552cae2bf2806b7bbb574e0cd9a3e35af4f6e85f03bc",
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass activity",
+          "passed": true,
+          "offset": 379
+        },
+        {
+          "literal": "--output json",
+          "passed": true,
+          "offset": 394
+        },
+        {
+          "literal": "━━━",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 2,
+      "status": "captured",
+      "responseSha256": "4a086f734e9c1227b9878cbddbd46109095a2848cf3e7c8dae89ab8f14735251",
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass activity",
+          "passed": true,
+          "offset": 423
+        },
+        {
+          "literal": "--kind wallet_transfer",
+          "passed": true,
+          "offset": 438
+        },
+        {
+          "literal": "--output json",
+          "passed": true,
+          "offset": 461
+        }
+      ],
+      "literalPassed": true,
+      "semanticReview": "required"
+    },
+    {
+      "id": 3,
+      "status": "captured",
+      "responseSha256": "08803859344349e61507c17efc03a19e2191bacabce971c73390bbe169543b73",
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass activity",
+          "passed": true,
+          "offset": 299
+        },
+        {
+          "literal": "--limit",
+          "passed": true,
+          "offset": 314
+        },
+        {
+          "literal": "--offset",
+          "passed": true,
+          "offset": 325
+        },
+        {
+          "literal": "--output json",
+          "passed": true,
+          "offset": 337
+        }
+      ],
+      "literalPassed": true,
+      "semanticReview": "required"
+    },
+    {
+      "id": 4,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass login init",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--client agent",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--no-interactive",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 5,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass signup init",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--client agent",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--no-interactive",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 6,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass me",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 7,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "delegation",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "payment_policy",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "kpass session create",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 8,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "delegation",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "max_total_amount",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "kpass session create",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 9,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "ksearch service list",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--query",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 10,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "ksearch service get",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 11,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "ksearch service list",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "━━━",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 12,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass user agents",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 13,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass user sessions",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--status active",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 14,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass agent:register",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "session create",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 15,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "session create",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "reuse_available",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 16,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass session status --request-id",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 17,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass shop:search",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "━━━",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 18,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass shop:cart",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 19,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass shop:checkout",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 20,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass wallet balance",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "━━━",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 21,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass wallet send",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--to 0xabc123def456",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--asset USDC",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--amount 5",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 22,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "session execute",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--url",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 23,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "session execute",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--body",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 24,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass logout",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 25,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass signup init",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--client agent",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--no-interactive",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 26,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass login verify",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "login_id",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 27,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass faucet drop",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--recipient",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--token USDC",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 28,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass wallet send",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--asset ETH",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--amount 0.5",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 29,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass user agents",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--agent-type claude",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 30,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass user sessions",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--status active",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 31,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass session status --request-id",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 32,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass agent:register",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--type claude",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 33,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass shop:cart add",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--provider",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--external-id",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 34,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass shop:cart remove",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--provider",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--external-id",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 35,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass shop:cart clear",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 36,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass shop:shipping update",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--line1",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--city",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--postal",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 37,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass shop:order status",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--order-id",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 38,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "ksearch service list",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--asset USDC",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 39,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "ksearch service list",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--cursor",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 40,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "ksearch service health",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 41,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "session execute",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--method PUT",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--body",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 42,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "session execute",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--headers",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "X-Api-Version",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 43,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "x402.status_code",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "404",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 44,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass session list --status active",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "spent_total",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "max_total_amount",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 45,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "curl",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "api.payments.xyz",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "payment_policy",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "max_amount_per_tx",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 46,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "session create",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 47,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass activity",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--kind x402_payment",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 48,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass activity",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--kind shopping_checkout",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--offset",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 49,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "ksearch service list",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--query",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "ksearch service get",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "service_id",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 50,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass shop:cart add",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "shop:checkout",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--confirmed",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 51,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass session create",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--delegation",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "max_amount_per_tx",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "max_total_amount",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 52,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass session create",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--delegation",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "max_amount_per_tx",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "max_total_amount",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 53,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass session attach",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--session-id session_dash7788",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "human_action_required",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "kpass session status --request-id",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--wait",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "Session Attached",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 54,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass session attach",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "session_not_attachable",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "request-session",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 55,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass session attach",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "agent_not_same_owner",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 56,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass wallet address",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--chain base",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "Gas is sponsored",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "USDC only",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "do not send ETH",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 57,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass agent init",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "thumbprint",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 58,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass agent token create --agent did:kite:acme-buyer-01",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "kpass agent bind --agent did:kite:acme-buyer-01 --token",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "active",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 59,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass agent status",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "binding.status",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 60,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "runtime_agent_mismatch",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "different agent",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "ask rather than",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 61,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kagent init",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "thumbprint",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 62,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass agent token create --agent did:kite:acme-seller-01",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "kagent bind --agent did:kite:acme-seller-01 --token",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "active",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 63,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kagent card fetch --pin",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "kagent card publish --file",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "card_hash_verified",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 64,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "registration template",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "registration validate",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "registration publish",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--storefront",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--rate-card",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--workflow-terms",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 65,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "acceptance_policy_violation",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "set its acceptance policy",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "owner action",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 66,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "card_hash_verified",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "PUBLISHED, BUT THE HASH COULD NOT BE CONFIRMED",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "buyers verify this hash",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 67,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "ksearch find",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "rewrite_applied",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "verified_tier",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 68,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "ksearch agent offerings",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--offering-kind dataset",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--max-total-price-minor",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--ready",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 69,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "ksearch agent card did:kite:example-seller",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "card_hash_verified",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "exit 8",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 70,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "ksearch agent keys",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "active_count",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--seller-key-id",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 71,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass agent card fetch --pin",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "chain_context_complete",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 72,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kagent agreement status --agreement-id agr_7f2a",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "kagent agreement accept --agreement-id agr_7f2a",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 73,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "acceptance_policy_violation",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "kagent escalate",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--kind acceptance-override",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "approval_url",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 74,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kagent agreement funding get --agreement-id agr_7f2a",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "activation_signable",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "kagent agreement funding sign --agreement-id agr_7f2a",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 75,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kagent agreement deliver --agreement-id agr_7f2a --file",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "not funded",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "NOT uploaded",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 76,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kagent serve",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--config",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "kite.config.yaml",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 77,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kagent message send --to",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--body",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--idempotency-key",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 78,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass agent agreement propose --seller did:kite:example-seller",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--terms-file",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "registrationBasis",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 79,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass agent session request --agreement-id agr_123",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--max-amount-per-tx",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--max-total-amount",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "approval_url",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 80,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass agent fund --agreement-id agr_123",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "funding_submission_incomplete",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "identical command",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 81,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "agreement proofs --agreement-id agr_123 --verify",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "deliveryHash",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "sha256",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 82,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass agent agreement reject --agreement-id agr_123",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--reason-code delivery-hash-mismatch",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 83,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass agent agreement review --agreement-id agr_123",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--rating",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--output json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 84,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass upgrade --output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "no permission prompt",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "bundle 22",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 85,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "KPASS_AUTO_UPGRADE=0",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "ask before running",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "kpass upgrade",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 86,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "KPASS_NO_UPDATE_CHECK=1",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "update_available",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "kpass upgrade --check",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 87,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kpass upgrade --check --output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "kpass upgrade --output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "up to date",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 88,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "irm https://cli.gokite.ai/install.ps1 | iex",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "I can't run it for you on Windows",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "PowerShell",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 89,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kite-discovery",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "image generation",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "cannot produce locally",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 90,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "wallet-send",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "no spending session",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "wallet",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 91,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "ASCII",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "no paid service",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "produces it directly",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 92,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kite-discovery",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "exchange rate",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "real-time",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 93,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kagent serve --config",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "the cwd IS the configuration",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "kite.config.yaml",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 94,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "one executable path",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "wrapper script",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "AGENT_MAX_TURNS",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 95,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "seller-agent-setup",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "active binding",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "seller-fulfill",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 96,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "out/active-registration.json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "kagent registration get --output json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "cannot quote right now",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 97,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "seller-acceptance",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": ".claude/skills/",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "escalates every proposal to the owner",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 98,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "agent-delivery",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "exactly ONE JSON object",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "no shell",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 99,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "out/active-registration.json",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "priceSchedule",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "requiredBeforeDeliveryMinor",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 100,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "out/quotes/used",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "unconsumed",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "the same work, not merely the same money",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 101,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "dispute",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "undesigned",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "escalates it to the owner",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 102,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "seller-onboarding",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "phase",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "public name",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 103,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "resume",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "live",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 104,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "UID",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "permanent",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 105,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "propose",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "advertise",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "model-visible",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 106,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "recruiting/v1",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "silence",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "confirm",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 107,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "dashboard",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "reserve",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "confirm",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 108,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "35000000",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "reserve",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "explicit",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 109,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "seller-acceptance",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "request",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 110,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "seller-acceptance",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "rejected",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "consent-refund",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 111,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "fail-closed",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "refuse",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 112,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "kagent serve",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "does not run",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 113,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "Playground",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "GOK-1272",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 114,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "standard/v1",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "confirm",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 115,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "pending",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "fail-closed",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 116,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "identifier claim",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "owner",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "card fetch --pin",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 117,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "pending",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "dashboard",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 118,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "checkpoint",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "compare",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 119,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "fixed/v1",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "--expected-revision",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "directory workflow",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 120,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "negotiated/v1",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "totalBounds",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "out/active-registration.json",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 121,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "details.problems",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "card fetch --pin",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 122,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "serve --config",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "6.6.0",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "does not run",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 123,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": ".claude/skills",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "README",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 124,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "unlisted",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "directory search",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "card_hash_verified",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 125,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "resume",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "serve",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 126,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "readiness",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "workflowHash",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "directory workflow",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 127,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "card_hash_verified",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "stop",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 128,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "USDC",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "operator",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "CAIP-19",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 129,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "silence",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "DEFAULT",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "confirm",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 130,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "appeal",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "revise",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "REJECTED",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 131,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "onboarding_status",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "identifier_already_claimed",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "owner",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 132,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "pending",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "dashboard",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "not re",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 133,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "redacted",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "placeholder",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "onboarding status",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 134,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "model",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "cannot guarantee",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "deterministic",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 135,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "roll-forward-only",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "author card",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "authorization",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 136,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "directory search",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "sufficient",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "optional",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 137,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "sha256sum",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "64-hex",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "first",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    },
+    {
+      "id": 138,
+      "status": "missing",
+      "responseSha256": null,
+      "errorSha256": null,
+      "assertions": [
+        {
+          "literal": "registration/prev",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "before phase 3",
+          "passed": false,
+          "offset": -1
+        },
+        {
+          "literal": "author card",
+          "passed": false,
+          "offset": -1
+        }
+      ],
+      "literalPassed": false,
+      "semanticReview": "required"
+    }
+  ]
+}

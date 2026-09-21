@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="424" failures="1" errors="414">
+  <testsuite name="Passport literal replay (recorded)" tests="424" failures="1" errors="414">
+    <properties><property name="semanticReview" value="required"/><property name="suiteSha256" value="c1140ce0f22fb3262fef851ccd82ec3b4be81bfa4db7e805ee73c4d85f90c160"/></properties>
+    <testcase classname="passport.literal-replay" name="eval 1 assertion 1: kpass activity"></testcase>
+    <testcase classname="passport.literal-replay" name="eval 1 assertion 2: --output json"></testcase>
+    <testcase classname="passport.literal-replay" name="eval 1 assertion 3: ━━━"><failure type="literal-mismatch" message="Required literal was not found"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 2 assertion 1: kpass activity"></testcase>
+    <testcase classname="passport.literal-replay" name="eval 2 assertion 2: --kind wallet_transfer"></testcase>
+    <testcase classname="passport.literal-replay" name="eval 2 assertion 3: --output json"></testcase>
+    <testcase classname="passport.literal-replay" name="eval 3 assertion 1: kpass activity"></testcase>
+    <testcase classname="passport.literal-replay" name="eval 3 assertion 2: --limit"></testcase>
+    <testcase classname="passport.literal-replay" name="eval 3 assertion 3: --offset"></testcase>
+    <testcase classname="passport.literal-replay" name="eval 3 assertion 4: --output json"></testcase>
+    <testcase classname="passport.literal-replay" name="eval 4 assertion 1: kpass login init"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 4 assertion 2: --client agent"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 4 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 4 assertion 4: --no-interactive"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 5 assertion 1: kpass signup init"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 5 assertion 2: --client agent"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 5 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 5 assertion 4: --no-interactive"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 6 assertion 1: kpass me"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 6 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 7 assertion 1: delegation"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 7 assertion 2: payment_policy"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 7 assertion 3: kpass session create"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 7 assertion 4: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 8 assertion 1: delegation"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 8 assertion 2: max_total_amount"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 8 assertion 3: kpass session create"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 9 assertion 1: ksearch service list"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 9 assertion 2: --query"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 9 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 10 assertion 1: ksearch service get"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 10 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 11 assertion 1: ksearch service list"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 11 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 11 assertion 3: ━━━"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 12 assertion 1: kpass user agents"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 12 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 13 assertion 1: kpass user sessions"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 13 assertion 2: --status active"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 13 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 14 assertion 1: kpass agent:register"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 14 assertion 2: session create"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 14 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 15 assertion 1: session create"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 15 assertion 2: reuse_available"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 15 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 16 assertion 1: kpass session status --request-id"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 16 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 17 assertion 1: kpass shop:search"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 17 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 17 assertion 3: ━━━"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 18 assertion 1: kpass shop:cart"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 18 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 19 assertion 1: kpass shop:checkout"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 19 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 20 assertion 1: kpass wallet balance"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 20 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 20 assertion 3: ━━━"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 21 assertion 1: kpass wallet send"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 21 assertion 2: --to 0xabc123def456"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 21 assertion 3: --asset USDC"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 21 assertion 4: --amount 5"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 21 assertion 5: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 22 assertion 1: session execute"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 22 assertion 2: --url"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 22 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 23 assertion 1: session execute"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 23 assertion 2: --body"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 23 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 24 assertion 1: kpass logout"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 24 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 25 assertion 1: kpass signup init"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 25 assertion 2: --client agent"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 25 assertion 3: --no-interactive"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 25 assertion 4: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 26 assertion 1: kpass login verify"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 26 assertion 2: login_id"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 27 assertion 1: kpass faucet drop"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 27 assertion 2: --recipient"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 27 assertion 3: --token USDC"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 27 assertion 4: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 28 assertion 1: kpass wallet send"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 28 assertion 2: --asset ETH"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 28 assertion 3: --amount 0.5"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 28 assertion 4: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 29 assertion 1: kpass user agents"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 29 assertion 2: --agent-type claude"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 29 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 30 assertion 1: kpass user sessions"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 30 assertion 2: --status active"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 30 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 31 assertion 1: kpass session status --request-id"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 31 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 32 assertion 1: kpass agent:register"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 32 assertion 2: --type claude"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 32 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 33 assertion 1: kpass shop:cart add"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 33 assertion 2: --provider"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 33 assertion 3: --external-id"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 33 assertion 4: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 34 assertion 1: kpass shop:cart remove"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 34 assertion 2: --provider"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 34 assertion 3: --external-id"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 34 assertion 4: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 35 assertion 1: kpass shop:cart clear"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 35 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 36 assertion 1: kpass shop:shipping update"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 36 assertion 2: --line1"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 36 assertion 3: --city"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 36 assertion 4: --postal"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 36 assertion 5: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 37 assertion 1: kpass shop:order status"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 37 assertion 2: --order-id"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 37 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 38 assertion 1: ksearch service list"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 38 assertion 2: --asset USDC"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 38 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 39 assertion 1: ksearch service list"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 39 assertion 2: --cursor"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 39 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 40 assertion 1: ksearch service health"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 40 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 41 assertion 1: session execute"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 41 assertion 2: --method PUT"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 41 assertion 3: --body"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 41 assertion 4: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 42 assertion 1: session execute"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 42 assertion 2: --headers"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 42 assertion 3: X-Api-Version"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 42 assertion 4: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 43 assertion 1: x402.status_code"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 43 assertion 2: 404"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 44 assertion 1: kpass session list --status active"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 44 assertion 2: spent_total"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 44 assertion 3: max_total_amount"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 44 assertion 4: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 45 assertion 1: curl"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 45 assertion 2: api.payments.xyz"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 45 assertion 3: payment_policy"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 45 assertion 4: max_amount_per_tx"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 46 assertion 1: session create"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 46 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 47 assertion 1: kpass activity"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 47 assertion 2: --kind x402_payment"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 47 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 48 assertion 1: kpass activity"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 48 assertion 2: --kind shopping_checkout"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 48 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 48 assertion 4: --offset"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 49 assertion 1: ksearch service list"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 49 assertion 2: --query"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 49 assertion 3: ksearch service get"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 49 assertion 4: service_id"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 49 assertion 5: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 50 assertion 1: kpass shop:cart add"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 50 assertion 2: shop:checkout"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 50 assertion 3: --confirmed"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 50 assertion 4: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 51 assertion 1: kpass session create"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 51 assertion 2: --delegation"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 51 assertion 3: max_amount_per_tx"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 51 assertion 4: max_total_amount"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 51 assertion 5: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 52 assertion 1: kpass session create"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 52 assertion 2: --delegation"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 52 assertion 3: max_amount_per_tx"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 52 assertion 4: max_total_amount"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 52 assertion 5: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 53 assertion 1: kpass session attach"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 53 assertion 2: --session-id session_dash7788"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 53 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 53 assertion 4: human_action_required"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 53 assertion 5: kpass session status --request-id"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 53 assertion 6: --wait"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 53 assertion 7: Session Attached"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 54 assertion 1: kpass session attach"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 54 assertion 2: session_not_attachable"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 54 assertion 3: request-session"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 55 assertion 1: kpass session attach"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 55 assertion 2: agent_not_same_owner"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 55 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 56 assertion 1: kpass wallet address"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 56 assertion 2: --chain base"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 56 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 56 assertion 4: Gas is sponsored"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 56 assertion 5: USDC only"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 56 assertion 6: do not send ETH"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 57 assertion 1: kpass agent init"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 57 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 57 assertion 3: thumbprint"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 58 assertion 1: kpass agent token create --agent did:kite:acme-buyer-01"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 58 assertion 2: kpass agent bind --agent did:kite:acme-buyer-01 --token"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 58 assertion 3: active"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 59 assertion 1: kpass agent status"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 59 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 59 assertion 3: binding.status"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 60 assertion 1: runtime_agent_mismatch"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 60 assertion 2: different agent"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 60 assertion 3: ask rather than"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 61 assertion 1: kagent init"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 61 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 61 assertion 3: thumbprint"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 62 assertion 1: kpass agent token create --agent did:kite:acme-seller-01"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 62 assertion 2: kagent bind --agent did:kite:acme-seller-01 --token"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 62 assertion 3: active"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 63 assertion 1: kagent card fetch --pin"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 63 assertion 2: kagent card publish --file"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 63 assertion 3: card_hash_verified"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 64 assertion 1: registration template"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 64 assertion 2: registration validate"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 64 assertion 3: registration publish"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 64 assertion 4: --storefront"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 64 assertion 5: --rate-card"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 64 assertion 6: --workflow-terms"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 65 assertion 1: acceptance_policy_violation"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 65 assertion 2: set its acceptance policy"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 65 assertion 3: owner action"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 66 assertion 1: card_hash_verified"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 66 assertion 2: PUBLISHED, BUT THE HASH COULD NOT BE CONFIRMED"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 66 assertion 3: buyers verify this hash"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 67 assertion 1: ksearch find"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 67 assertion 2: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 67 assertion 3: rewrite_applied"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 67 assertion 4: verified_tier"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 68 assertion 1: ksearch agent offerings"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 68 assertion 2: --offering-kind dataset"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 68 assertion 3: --max-total-price-minor"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 68 assertion 4: --ready"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 69 assertion 1: ksearch agent card did:kite:example-seller"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 69 assertion 2: card_hash_verified"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 69 assertion 3: exit 8"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 70 assertion 1: ksearch agent keys"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 70 assertion 2: active_count"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 70 assertion 3: --seller-key-id"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 71 assertion 1: kpass agent card fetch --pin"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 71 assertion 2: chain_context_complete"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 72 assertion 1: kagent agreement status --agreement-id agr_7f2a"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 72 assertion 2: kagent agreement accept --agreement-id agr_7f2a"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 72 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 73 assertion 1: acceptance_policy_violation"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 73 assertion 2: kagent escalate"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 73 assertion 3: --kind acceptance-override"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 73 assertion 4: approval_url"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 74 assertion 1: kagent agreement funding get --agreement-id agr_7f2a"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 74 assertion 2: activation_signable"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 74 assertion 3: kagent agreement funding sign --agreement-id agr_7f2a"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 75 assertion 1: kagent agreement deliver --agreement-id agr_7f2a --file"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 75 assertion 2: not funded"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 75 assertion 3: NOT uploaded"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 76 assertion 1: kagent serve"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 76 assertion 2: --config"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 76 assertion 3: kite.config.yaml"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 77 assertion 1: kagent message send --to"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 77 assertion 2: --body"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 77 assertion 3: --idempotency-key"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 78 assertion 1: kpass agent agreement propose --seller did:kite:example-seller"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 78 assertion 2: --terms-file"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 78 assertion 3: registrationBasis"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 79 assertion 1: kpass agent session request --agreement-id agr_123"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 79 assertion 2: --max-amount-per-tx"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 79 assertion 3: --max-total-amount"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 79 assertion 4: approval_url"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 80 assertion 1: kpass agent fund --agreement-id agr_123"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 80 assertion 2: funding_submission_incomplete"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 80 assertion 3: identical command"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 81 assertion 1: agreement proofs --agreement-id agr_123 --verify"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 81 assertion 2: deliveryHash"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 81 assertion 3: sha256"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 82 assertion 1: kpass agent agreement reject --agreement-id agr_123"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 82 assertion 2: --reason-code delivery-hash-mismatch"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 83 assertion 1: kpass agent agreement review --agreement-id agr_123"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 83 assertion 2: --rating"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 83 assertion 3: --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 84 assertion 1: kpass upgrade --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 84 assertion 2: no permission prompt"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 84 assertion 3: bundle 22"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 85 assertion 1: KPASS_AUTO_UPGRADE=0"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 85 assertion 2: ask before running"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 85 assertion 3: kpass upgrade"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 86 assertion 1: KPASS_NO_UPDATE_CHECK=1"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 86 assertion 2: update_available"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 86 assertion 3: kpass upgrade --check"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 87 assertion 1: kpass upgrade --check --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 87 assertion 2: kpass upgrade --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 87 assertion 3: up to date"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 88 assertion 1: irm https://cli.gokite.ai/install.ps1 | iex"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 88 assertion 2: I can&apos;t run it for you on Windows"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 88 assertion 3: PowerShell"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 89 assertion 1: kite-discovery"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 89 assertion 2: image generation"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 89 assertion 3: cannot produce locally"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 90 assertion 1: wallet-send"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 90 assertion 2: no spending session"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 90 assertion 3: wallet"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 91 assertion 1: ASCII"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 91 assertion 2: no paid service"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 91 assertion 3: produces it directly"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 92 assertion 1: kite-discovery"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 92 assertion 2: exchange rate"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 92 assertion 3: real-time"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 93 assertion 1: kagent serve --config"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 93 assertion 2: the cwd IS the configuration"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 93 assertion 3: kite.config.yaml"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 94 assertion 1: one executable path"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 94 assertion 2: wrapper script"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 94 assertion 3: AGENT_MAX_TURNS"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 95 assertion 1: seller-agent-setup"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 95 assertion 2: active binding"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 95 assertion 3: seller-fulfill"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 96 assertion 1: out/active-registration.json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 96 assertion 2: kagent registration get --output json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 96 assertion 3: cannot quote right now"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 97 assertion 1: seller-acceptance"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 97 assertion 2: .claude/skills/"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 97 assertion 3: escalates every proposal to the owner"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 98 assertion 1: agent-delivery"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 98 assertion 2: exactly ONE JSON object"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 98 assertion 3: no shell"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 99 assertion 1: out/active-registration.json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 99 assertion 2: priceSchedule"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 99 assertion 3: requiredBeforeDeliveryMinor"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 100 assertion 1: out/quotes/used"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 100 assertion 2: unconsumed"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 100 assertion 3: the same work, not merely the same money"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 101 assertion 1: dispute"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 101 assertion 2: undesigned"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 101 assertion 3: escalates it to the owner"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 102 assertion 1: seller-onboarding"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 102 assertion 2: phase"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 102 assertion 3: public name"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 103 assertion 1: resume"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 103 assertion 2: live"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 104 assertion 1: UID"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 104 assertion 2: permanent"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 105 assertion 1: propose"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 105 assertion 2: advertise"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 105 assertion 3: model-visible"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 106 assertion 1: recruiting/v1"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 106 assertion 2: silence"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 106 assertion 3: confirm"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 107 assertion 1: dashboard"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 107 assertion 2: reserve"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 107 assertion 3: confirm"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 108 assertion 1: 35000000"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 108 assertion 2: reserve"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 108 assertion 3: explicit"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 109 assertion 1: seller-acceptance"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 109 assertion 2: request"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 110 assertion 1: seller-acceptance"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 110 assertion 2: rejected"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 110 assertion 3: consent-refund"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 111 assertion 1: fail-closed"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 111 assertion 2: refuse"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 112 assertion 1: kagent serve"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 112 assertion 2: does not run"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 113 assertion 1: Playground"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 113 assertion 2: GOK-1272"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 114 assertion 1: standard/v1"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 114 assertion 2: confirm"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 115 assertion 1: pending"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 115 assertion 2: fail-closed"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 116 assertion 1: identifier claim"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 116 assertion 2: owner"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 116 assertion 3: card fetch --pin"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 117 assertion 1: pending"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 117 assertion 2: dashboard"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 118 assertion 1: checkpoint"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 118 assertion 2: compare"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 119 assertion 1: fixed/v1"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 119 assertion 2: --expected-revision"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 119 assertion 3: directory workflow"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 120 assertion 1: negotiated/v1"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 120 assertion 2: totalBounds"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 120 assertion 3: out/active-registration.json"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 121 assertion 1: details.problems"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 121 assertion 2: card fetch --pin"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 122 assertion 1: serve --config"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 122 assertion 2: 6.6.0"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 122 assertion 3: does not run"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 123 assertion 1: .claude/skills"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 123 assertion 2: README"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 124 assertion 1: unlisted"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 124 assertion 2: directory search"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 124 assertion 3: card_hash_verified"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 125 assertion 1: resume"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 125 assertion 2: serve"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 126 assertion 1: readiness"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 126 assertion 2: workflowHash"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 126 assertion 3: directory workflow"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 127 assertion 1: card_hash_verified"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 127 assertion 2: stop"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 128 assertion 1: USDC"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 128 assertion 2: operator"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 128 assertion 3: CAIP-19"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 129 assertion 1: silence"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 129 assertion 2: DEFAULT"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 129 assertion 3: confirm"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 130 assertion 1: appeal"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 130 assertion 2: revise"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 130 assertion 3: REJECTED"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 131 assertion 1: onboarding_status"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 131 assertion 2: identifier_already_claimed"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 131 assertion 3: owner"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 132 assertion 1: pending"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 132 assertion 2: dashboard"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 132 assertion 3: not re"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 133 assertion 1: redacted"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 133 assertion 2: placeholder"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 133 assertion 3: onboarding status"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 134 assertion 1: model"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 134 assertion 2: cannot guarantee"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 134 assertion 3: deterministic"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 135 assertion 1: roll-forward-only"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 135 assertion 2: author card"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 135 assertion 3: authorization"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 136 assertion 1: directory search"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 136 assertion 2: sufficient"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 136 assertion 3: optional"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 137 assertion 1: sha256sum"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 137 assertion 2: 64-hex"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 137 assertion 3: first"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 138 assertion 1: registration/prev"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 138 assertion 2: before phase 3"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+    <testcase classname="passport.literal-replay" name="eval 138 assertion 3: author card"><error type="missing" message="Capture missing; assertion not evaluated"/></testcase>
+  </testsuite>
+</testsuites>
+
