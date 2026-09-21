@@ -17,6 +17,8 @@ The test suite checks all 138 reference cases and 424 literal assertions. `tmp/r
 
 ## Review actual captured responses
 
+To collect responses automatically from an authenticated external agent, see the [execution adapter](docs/EXECUTION.md). It sends prompt-only input, handles process timeouts and output limits, checkpoints answers, and generates the existing replay reports.
+
 ```bash
 npm run eval:replay -- --request capture-request.json
 # Collect real agent answers using only the exported prompts and appropriate skills.
