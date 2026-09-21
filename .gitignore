@@ -1,0 +1,8 @@
+node_modules/
+tmp/
+coverage/
+capture-request.json
+captures.json
+replay-report/
+.env
+.env.*
